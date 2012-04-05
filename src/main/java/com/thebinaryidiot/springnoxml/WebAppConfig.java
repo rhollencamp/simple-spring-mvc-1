@@ -37,7 +37,7 @@ class WebAppConfig
 	 * @return
 	 */
 	@Bean
-	public InternalResourceViewResolver configureInternalResourceViewResolver()
+	public InternalResourceViewResolver viewResolver()
 	{
 		final InternalResourceViewResolver resolver = new InternalResourceViewResolver();
 		resolver.setPrefix("/WEB-INF/views/");
